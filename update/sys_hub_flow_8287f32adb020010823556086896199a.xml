@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Flow to test custom action.</description>
+        <internal_name>action_test_flow</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Action Test Flow</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:30:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8287f32adb020010823556086896199a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Action Test Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="IPInfo Spoke" source="x_378094_ipinfo_sp">7d33ff22db02001082355608689619f6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="IPInfo Spoke">7d33ff22db02001082355608689619f6</sys_scope>
+        <sys_update_name>sys_hub_flow_8287f32adb020010823556086896199a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:56:12</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=8287f32adb020010823556086896199a"/>
+    <sys_variable_value action="delete_multiple" query="document_key=8287f32adb020010823556086896199a"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=8287f32adb020010823556086896199a^sys_idNOT INc9a8776edb0200108235560868961958"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Geographic Data from IP">14e6f3e6db0200108235560868961952</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow">8287f32adb020010823556086896199a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:35:10</sys_created_on>
+        <sys_id>c9a8776edb0200108235560868961958</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="IPInfo Spoke">7d33ff22db02001082355608689619f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:56:12</sys_updated_on>
+        <ui_id>929c42ad-4cf2-4d98-a25c-edb6414cccd3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c9a8776edb0200108235560868961958"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c9a8776edb0200108235560868961958</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:56:12</sys_created_on>
+        <sys_id>8d7d3b6edb020010823556086896197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:56:12</sys_updated_on>
+        <value>79.231.211.54</value>
+        <variable display_value="">191dff6edb02001082355608689619db</variable>
+    </sys_variable_value>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=8287f32adb020010823556086896199a^sys_idNOT IN89a8776edb0200108235560868961955"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Action Test Flow">8287f32adb020010823556086896199a</flow>
+        <name>Run Once</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:35:10</sys_created_on>
+        <sys_id>89a8776edb0200108235560868961955</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:56:12</sys_updated_on>
+        <trigger_definition display_value="Run Once">0a76e504c32222002841b63b12d3aeac</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>run_once</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=89a8776edb0200108235560868961955"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>89a8776edb0200108235560868961955</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:35:10</sys_created_on>
+        <sys_id>4da8776edb0200108235560868961956</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:35:10</sys_updated_on>
+        <value>2020-01-04 00:05:00</value>
+        <variable display_value="">92afcd94c32222002841b63b12d3aee8</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=8287f32adb020010823556086896199a^sys_idNOT INc287f32adb020010823556086896199c"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>8287f32adb020010823556086896199a</id>
+        <name>Action Test Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:30:20</sys_created_on>
+        <sys_id>c287f32adb020010823556086896199c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:30:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=8287f32adb020010823556086896199a^sys_idNOT INc9a8776edb0200108235560868961958"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Geographic Data from IP">14e6f3e6db0200108235560868961952</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Action Test Flow">8287f32adb020010823556086896199a</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:35:10</sys_created_on>
+        <sys_id>c9a8776edb0200108235560868961958</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="IPInfo Spoke">7d33ff22db02001082355608689619f6</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:56:12</sys_updated_on>
+        <ui_id>929c42ad-4cf2-4d98-a25c-edb6414cccd3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c9a8776edb0200108235560868961958"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>c9a8776edb0200108235560868961958</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-03 09:56:12</sys_created_on>
+        <sys_id>8d7d3b6edb020010823556086896197c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-03 09:56:12</sys_updated_on>
+        <value>79.231.211.54</value>
+        <variable display_value="">191dff6edb02001082355608689619db</variable>
+    </sys_variable_value>
+</record_update>
